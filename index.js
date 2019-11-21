@@ -5,5 +5,5 @@ drivermach.toLowerCase()===name.toLowerCase());
 }
 function fuzzyMatch(drivers,testString){
 return drivers.filter(drivermach=>
-drivermach.toLowerCase()===name.toLowerCase());
+drivermach.toLowerCase()===indexOf(testString.toLowerCase()));
 }
